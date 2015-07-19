@@ -1,0 +1,9 @@
+	tmp=@dataDistance[j]
+				puts tmp.class
+				value=tmp.take(1)
+				sing=tmp[1]
+				if (value.eql? 1)
+					malignant+=charge(1)*kFunction(tmp[0])
+				elsif tmp[1].eql? 0
+					 benign+=charge(1)*kFunction(tmp[0])
+				end
